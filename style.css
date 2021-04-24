@@ -1,0 +1,28 @@
+	h1 {
+			font-family:  Arial, Verdana, sans-serif;
+			font-size: 24px;
+			text-align: center;
+	}
+	.p1 {
+		text-indent: 60px;
+		font-size: 14px;
+		font-family: Monaco, "Lucida Console" monospace;
+		font-size: 14px;
+		text-align: justify;
+	}
+	.p2 {
+		text-indent: 60px;
+		font-size: 14px;
+		font-family: Georgia, Garamond, serif;
+		text-align: justify;
+	}
+	.fotoquh {
+		float: left;
+		display: inline-block;
+		border-radius: 15px
+	}
+	body {
+		background-image: url("https://i.ibb.co/nMFrQnH/background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
