@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color:
+}
+nav {
+	display: block;
+	background: rgba(0,0,0,.8);
+	overflow: hidden;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	position: sticky;
+	top: 0;
+}
+
+nav a {
+	float: left;
+	color: black;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: lightblue;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+nav li {
+	float: right;
+	margin-right: 2%;
+}
+
+nav ul li a.active {
+	background: lightblue;
+}
+
+.banner {
+	background-color: lightblue;
+	padding: 7px;
+	width: 100%;
+}
+.banner p{
+	margin-left: 2%;
+	margin-right: 2%;
+}
